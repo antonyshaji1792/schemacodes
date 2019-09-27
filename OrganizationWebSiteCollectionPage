@@ -1,0 +1,56 @@
+<script type='application/ld+json'> {
+    "@context":"https://schema.org",
+    "@graph":[ {
+        "@type":"Organization",
+        "@id":"https://slator.com/#organization",
+        "name":"Slator AG",
+        "url":"https://slator.com/",
+        "sameAs":["https://www.linkedin.com/company/slator",
+        "https://twitter.com/slatornews"],
+        "logo": {
+            "@type": "ImageObject", "@id": "https://slator.com/#logo", "url": "https://slator.com/assets/2018/05/Slator-logo_colour-icon.png", "width": 1363, "height": 1414, "caption": "Slator AG"
+        }
+        ,
+        "image": {
+            "@id": "https://slator.com/#logo"
+        }
+    }
+    ,
+    {
+        "@type":"WebSite",
+        "@id":"https://slator.com/#website",
+        "url":"https://slator.com/",
+        "name":"Slator",
+        "publisher": {
+            "@id": "https://slator.com/#organization"
+        }
+        ,
+        "potentialAction": {
+            "@type":"SearchAction",
+            "target":"https://slator.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    ,
+    {
+        "@type":"CollectionPage",
+        "@id":"https://slator.com/#webpage",
+        "url":"https://slator.com/",
+        "inLanguage":"en-US",
+        "name":"Slator | Language Industry Intelligence",
+        "isPartOf": {
+            "@id": "https://slator.com/#website"
+        }
+        ,
+        "about": {
+            "@id": "https://slator.com/#organization"
+        }
+        ,
+        "description":"Slator makes business sense of the translation and language technology markets through news and insights on demand drivers, funding, talent moves, tech and more"
+    }
+    ]
+}
+
+</script>
+
+https://www.google.com/search?sxsrf=ACYBGNTtSwEl056K51tl0Ms0pRpzEIatsw:1569569461176&q=language+industry+news&sa=X&ved=2ahUKEwjz47vxvfDkAhXBX3wKHf6GD5YQ1QIoAHoECGYQAQ&biw=1293&bih=637
